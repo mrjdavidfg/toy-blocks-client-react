@@ -18,12 +18,12 @@ exports[`<Nodes /> should match snapshot 1`] = `
     </strong>
   </h1>
   <div
-    className="MuiPaper-root MuiExpansionPanel-root makeStyles-root-33 MuiExpansionPanel-rounded MuiPaper-elevation3 MuiPaper-rounded"
+    className="MuiPaper-root MuiExpansionPanel-root makeStyles-root-33 Mui-disabled MuiExpansionPanel-rounded MuiPaper-elevation3 MuiPaper-rounded"
   >
     <div
       aria-disabled={false}
       aria-expanded={false}
-      className="MuiButtonBase-root MuiExpansionPanelSummary-root makeStyles-summary-34"
+      className="MuiButtonBase-root MuiExpansionPanelSummary-root makeStyles-summary-34 Mui-disabled"
       onBlur={[Function]}
       onClick={[Function]}
       onDragLeave={[Function]}
@@ -131,25 +131,19 @@ exports[`<Nodes /> should match snapshot 1`] = `
           >
             <div
               className="MuiExpansionPanelDetails-root"
-            >
-              <p
-                className="MuiTypography-root MuiTypography-body1"
-              >
-                Blocks go here
-              </p>
-            </div>
+            />
           </div>
         </div>
       </div>
     </div>
   </div>
   <div
-    className="MuiPaper-root MuiExpansionPanel-root makeStyles-root-33 MuiExpansionPanel-rounded MuiPaper-elevation3 MuiPaper-rounded"
+    className="MuiPaper-root MuiExpansionPanel-root makeStyles-root-33 Mui-disabled MuiExpansionPanel-rounded MuiPaper-elevation3 MuiPaper-rounded"
   >
     <div
       aria-disabled={false}
       aria-expanded={false}
-      className="MuiButtonBase-root MuiExpansionPanelSummary-root makeStyles-summary-34"
+      className="MuiButtonBase-root MuiExpansionPanelSummary-root makeStyles-summary-34 Mui-disabled"
       onBlur={[Function]}
       onClick={[Function]}
       onDragLeave={[Function]}
@@ -257,13 +251,7 @@ exports[`<Nodes /> should match snapshot 1`] = `
           >
             <div
               className="MuiExpansionPanelDetails-root"
-            >
-              <p
-                className="MuiTypography-root MuiTypography-body1"
-              >
-                Blocks go here
-              </p>
-            </div>
+            />
           </div>
         </div>
       </div>
