@@ -31,6 +31,7 @@ export function checkNodeStatus(node) {
 
       if(res.status >= 400) {
         dispatch(checkNodeStatusFailure(node));
+        return;
       }
 
       const json = await res.json();
